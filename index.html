@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>lesson 19</title>
+    <link rel="stylesheet" type="text/css" href="assets/js/style.css" />
+  </head>
+  <body>
+    <section class="form-section">
+      <form class="form" id="sign-up" action="#" method="get" novalidate>
+        <div class="input-field">
+          <label for="personal_number">personal_number</label>
+          <input
+            type="text"
+            id="personal_number"
+            placeholder="personal number"
+            required
+          />
+          <span class="error-message" id="personal_number-error"></span>
+        </div>
+
+        <div class="input-field">
+          <label for="mobile_number">mobile number</label>
+          <input
+            type="mobile_number"
+            id="mobile_number"
+            placeholder="mobile_number"
+            required
+          />
+          <span class="error-message" id="mobile_number-error"></span>
+        </div>
+
+        <div class="input-field">
+          <label for="job_description">job_description</label>
+          <input
+            type="job_description"
+            id="job_description"
+            placeholder="job_description"
+            maxlength="50"
+            required
+          />
+          <span class="error-message" id="job_description-error"></span>
+        </div>
+
+        <div class="input-field">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <div class="modal" id="sign-in">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Modal Title</h3>
+          <button class="modal-close">X</button>
+        </div>
+        <div class="modal-body">this is modal body</div>
+      </div>
+    </div>
+
+    <div class="modal" id="sign-up-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Modal Title</h3>
+          <button class="modal-close">X</button>
+        </div>
+        <div class="modal-body">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
+          facilis officiis nulla unde laudantium quam commodi ab fugit. Qui
+          doloribus expedita repudiandae minus aperiam nulla alias placeat ab,
+          aspernatur adipisci.
+        </div>
+      </div>
+    </div>
+
+    <button class="open-modal">open modal 2</button>
+
+    <script type="text/javascript" src="assets/js/main.js"></script>
+  </body>
+</html>
